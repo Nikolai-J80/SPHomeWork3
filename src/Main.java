@@ -3,6 +3,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
+    // используем константы, чтобы избежать магических чисел
     private static final int MIN_ORDER_AMOUNT = 500;
     private static Store store = new Store();
     private static int totalSum;
