@@ -63,7 +63,7 @@ public class Main {
         }
     }
 
-    // принцип DRY - повторяющийся код вывода корзины вынесен в отдельный метод
+    // принцип DRY 
     private static void printBasket() {
         if (order.isEmpty()) {
             System.out.println("Ваша корзина пуста");
