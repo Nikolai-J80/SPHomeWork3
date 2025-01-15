@@ -12,6 +12,6 @@ public class Shoes extends Product {
 
     @Override
     public String toString() {
-        return getName() + " - " + getPrice() + " руб. " + "размер - " + size;
+        return getName() + " - " + getPrice() + " руб. " + "размер - " + size  + ", "+soleMatirial+"/"+shoesMatrial;
     }
 }
